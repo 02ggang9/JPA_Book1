@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "orders")
+@Table(name = "orders") // Order은 관례상 orders를 사용한다.
 @Getter
 @Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
